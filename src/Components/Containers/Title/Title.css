@@ -46,7 +46,7 @@ color: white;
 .titleright{
     display: flex;
 align-items: center;
-font-size: .8rem;
+font-size: 12px;
 font-weight: 400;
 color: #c0bdbd;
 gap: 10px;
@@ -60,4 +60,46 @@ margin-right: 40px;
 }
 .titleright span{
  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        flex-direction: row;
+        height: auto;
+        padding: 10px 0;
+        gap: 5px;
+        align-items: flex-start;
+    }
+
+    .titleleft {
+        margin-left: 1px;
+        gap: 6px;
+    }
+
+    .titleleft img {
+        width: 24px;
+    }
+
+    .titleleft h2 {
+        font-size: 11px;
+    }
+
+    .back-button {
+        width: 28px;
+        height: 24px;
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .titleright {
+        margin-top: 5px;
+        margin-right: 10px;
+        font-size: 8px;
+        gap: 6px;
+    }
+
+    .titleright img {
+        width: 13px;
+        height: 14px;
+    }
 }

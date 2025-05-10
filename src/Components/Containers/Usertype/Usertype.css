@@ -20,3 +20,20 @@ border-radius: 8px;
 cursor: pointer;
 width: 500px;
 }
+@media screen and (max-width:768px) {
+    .usercontainer{ 
+        gap: 5px;
+        padding: 0 10px;
+        margin-top: 10px;  
+    }
+    .action-button{
+        gap: 6px;
+        padding: 6px 10px;
+        font-size: 6px;
+        width: 250px;
+    }
+    .action-button img{
+        width: 9px;
+        height: 9px;
+    }
+}

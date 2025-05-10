@@ -12,3 +12,14 @@ color:#fff9;
 cursor: pointer;
 padding-bottom: 5px;
 }
+@media screen and (max-width:768px) {
+  .mini{
+    padding: 0 15px;
+    gap: 3px;
+  margin-left: 2px;
+  }
+  .menu{
+    font-size: 5px;
+    padding-bottom: 1px;
+  }  
+}

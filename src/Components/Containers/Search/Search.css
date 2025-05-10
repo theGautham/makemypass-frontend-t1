@@ -28,3 +28,24 @@
     color: white;
     font-size: 14px;
 }
+@media screen and (max-width:768px) {
+    .container-search{
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 15px;
+        padding: 0 10px;
+    }
+    .search{
+        height: 25px;
+        padding: 0 10px;
+        gap: 8px;
+    }
+    .search img{
+        height: 13px;
+        width: 13px;
+    }
+    .search input{
+        flex: 1;
+        font-size: 12px;
+    }
+}

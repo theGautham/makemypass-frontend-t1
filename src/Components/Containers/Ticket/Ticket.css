@@ -19,3 +19,10 @@
     .new{
         color: #7c9bf2;
     }
+    @media screen and (max-width:768px) {
+        .ticket{gap: 6px;
+            margin-top: 10px;
+            padding: 0 10px;
+            font-size: 7px;
+        }
+    }

@@ -70,3 +70,48 @@ height: 40px;
         width: 16px;
         height: 16px;
     }
+     @media screen and (max-width:768px) {
+        .home{
+            width: 100%;
+            max-width: 768px;
+            padding: 0 5px;
+        
+        }
+        .guestlist{
+    font-size: 11px;
+    margin-top: 12px;
+    padding: 0 10px;
+        }
+        .recentg{
+            margin-top:6px ;
+            padding: 0 10px;
+            }
+            .recentleft{
+                font-size: 6px;
+                margin-top: 10px;
+                
+            }
+            .recentright{
+                margin-top:12px ;
+               gap: 4px;
+            }
+            .normal{
+        padding: 0px 4px;
+        font-size: 5px;
+        width: 55px;
+        height: 20px;
+            }
+            .normal-arrow{
+                padding: 0px 6px;
+                font-size: 4px;
+                width: 55px;
+                height: 20px;
+            }
+            .arrow-end{
+                gap: 2px;
+            }
+            .normal-arrow img{
+                width: 8px;
+                height: 8px;
+            }
+    }

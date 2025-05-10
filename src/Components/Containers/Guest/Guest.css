@@ -28,13 +28,37 @@
         font-weight: 300;
     }
     .gright .number1{
-        font-size: 20px;
+        font-size: 19px;
         color: white;
         font-weight: 300;
     }
-    
-        .gright .label1{
+    .gright .label1{
             font-size: 16px;
             color: #00ff82;
             font-weight: 300;
+        }
+        @media screen and (max-width:768px) {
+            .guest{
+                padding: 0 10px;
+            }
+            .gleft{
+                gap:3px;
+                margin-top: 5px;
+            }
+            .gright{
+                gap:3px;
+                margin-top: 5px;
+            }
+            .number{
+                font-size: 10px;
+            }
+            .gleft .label{
+                font-size: 7px;
+            }
+            .gright .number1{
+                font-size: 8px;
+            }
+            .gright .label1{
+                font-size: 6px;
+            }
         }
