@@ -1,0 +1,63 @@
+.title{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.titleleft{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-left: 20px;
+}
+
+.back-button{
+    background-color: #0003;
+    border: none;
+    border-radius: 11px;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 32px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.titleleft img{
+    width: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.titleleft h2{
+font-weight: 600;
+font-size: 24px;
+color: white;
+}
+.titleright{
+    display: flex;
+align-items: center;
+font-size: .8rem;
+font-weight: 400;
+color: #c0bdbd;
+gap: 10px;
+margin-right: 40px;
+}
+.titleright img{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.titleright span{
+ align-items: center;
+}

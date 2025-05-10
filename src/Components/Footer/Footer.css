@@ -1,0 +1,14 @@
+.footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 40px;
+padding: 0 20px 20px;
+}
+.footer-left{
+height: 30px;
+}
+.footer-right{
+display: flex;
+gap: 12px;
+}

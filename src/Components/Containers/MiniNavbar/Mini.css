@@ -1,0 +1,14 @@
+.mini{
+display: flex;
+justify-content: flex-start;
+gap: 10px;
+margin-top: 10px;
+padding: 0 20px;
+}
+.menu{
+font-size: 12px;
+font-weight: 300;
+color:#fff9;
+cursor: pointer;
+padding-bottom: 5px;
+}

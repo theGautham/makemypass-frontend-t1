@@ -1,0 +1,21 @@
+.ticket{    
+    display: flex;
+    flex-direction: row;
+        gap: 24px;
+        margin-top: 12px;
+        padding: 0 20px;
+        
+    
+    }
+ .spl{
+        color: #9b4fd3;
+    }
+ .demo{
+        color: #2eaf6d;
+    }
+    .hack{
+        color: #e6e8ec;
+    }
+    .new{
+        color: #7c9bf2;
+    }

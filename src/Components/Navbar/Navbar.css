@@ -1,0 +1,46 @@
+.navbar{
+    height: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px ;
+}
+.navleft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+   
+}
+.navleft img{
+    width: 64px;
+    height: 26px;
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, .2));
+    cursor: pointer;
+}
+.navleft h1{
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navright{display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+}
+.navright img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.navright span{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

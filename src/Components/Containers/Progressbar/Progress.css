@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+        height: 8px;
+        width: 100%;
+        margin-top: 15px;
+        padding: 0 20px;
+        overflow: hidden;
+}
+
+.bar-purple{
+    background-color: #9b4fd3;
+    width: 942px;
+}
+.bar-green{
+    background-color: #2eaf6d;
+    width: 11.39px;
+}
+.bar-grey{
+    background-color: #e6e8ec;
+    width: 15.19px;
+}
+.bar-blue{
+    background-color: #7c9bf2;
+    width: 189.91px;
+}

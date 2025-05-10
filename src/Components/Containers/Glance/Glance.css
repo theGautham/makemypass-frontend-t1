@@ -1,0 +1,22 @@
+.glance{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.glance-right{
+font-size: 20px;
+
+}
+.glance-right span{
+    color: white;
+    font-weight: 300;
+}
+.glance-left{
+font-size: 14px;
+
+}
+.glance-left span{
+color: white;
+font-weight: 300;
+}

@@ -1,0 +1,21 @@
+.pageinfo{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px;
+margin-top: 25px;
+height: 50px;
+color: #ffffff9a;
+font-size: 14px;
+font-weight: 300;
+}
+.pagination{
+display: flex;
+align-items: center;
+gap: 8px;
+}
+.pagination img{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}

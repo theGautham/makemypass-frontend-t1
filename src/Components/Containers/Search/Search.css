@@ -1,0 +1,30 @@
+.container-search{
+    padding: 0 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding: 0 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    border: 1px solid color(rgba 255,255,255,1);
+    border-radius: 6px;
+    background-color: #ffffff0d;
+    padding: 0 20px;
+    gap: 10px;
+}
+.search img{
+    height: 16px;
+    width: 16px;
+}
+.search input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}

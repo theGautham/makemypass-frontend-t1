@@ -1,0 +1,22 @@
+.usercontainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.action-button{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 12px;
+background-color: #ffffff14;
+border: none;
+padding: 12px 20px;
+font-size: 14px;
+font-weight: 400;
+color: white;
+border-radius: 8px;
+cursor: pointer;
+width: 500px;
+}

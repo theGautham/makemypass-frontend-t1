@@ -1,0 +1,40 @@
+.guest{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    }
+    .gleft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    }
+    .gright{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    }
+    .number{
+        font-size: 25px;
+        color: #47c97e;
+        
+        font-weight: 300;
+        
+    }
+    .gleft .label{
+        font-size: 16px;
+        color: #00ff82;
+        font-weight: 300;
+    }
+    .gright .number1{
+        font-size: 20px;
+        color: white;
+        font-weight: 300;
+    }
+    
+        .gright .label1{
+            font-size: 16px;
+            color: #00ff82;
+            font-weight: 300;
+        }
