@@ -54,30 +54,31 @@ height: 16px;
    }
    .list{
    width: 100%;
-   margin-top: 10px;
+   margin-top: 15px;
    padding: 0 1px;
    }
    .user-list{
-   padding: 6px 10px;
+   padding: 18px 10px;
    }
    .user-left{
+    align-items: center;
    gap: 5px;
    }
    .name{
-   font-size: 9px;
+   font-size: 16px;
 
    }
    .username{
-       font-size: 6px;
+       font-size: 11px;
    }
    .user-right{
-       gap: 8px;
+       gap: 10px;
    }
    .time{
-   font-size: 6px;
+   font-size: 10px;
    }
    .user-right img{
-   width: 8px;
-   height: 8px;
+   width: 15px;
+   height: 15px;
    }
 }

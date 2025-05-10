@@ -13,13 +13,15 @@ cursor: pointer;
 padding-bottom: 5px;
 }
 @media screen and (max-width:768px) {
-  .mini{
+  .mini {
     padding: 0 15px;
-    gap: 3px;
-  margin-left: 2px;
+    gap: 5px;
+    margin-left: 2px;
+    overflow-x: auto;        
+    white-space: nowrap; 
   }
-  .menu{
-    font-size: 5px;
+.menu{
+    font-size: 15px;
     padding-bottom: 1px;
   }  
 }

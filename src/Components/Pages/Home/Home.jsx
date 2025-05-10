@@ -31,7 +31,7 @@ const Home = () => {
       <Search/>
       <div className="recentg">
         <div className="recentleft">
-          <span>Recent Guests(30)</span>
+          <span>Recent Guests(8)</span>
         </div>
         <div className="recentright">
           <button class='normal'>Select Multiple</button>

@@ -22,14 +22,14 @@ font-weight: 300;
 }
 @media screen and (max-width:768px) {
     .glance{
-        margin-top: 10px;
+        margin-top: 2ch;
         padding: 0 10px;
     }
     .glance-right{
-        font-size: 11px;
+        font-size: 18px;
     }
     .glance-left{
         margin-top: 6px;
-        font-size: 7px;
+        font-size: 12px;
     }
 }

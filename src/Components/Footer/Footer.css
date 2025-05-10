@@ -14,16 +14,17 @@ gap: 12px;
 }
 @media screen and (max-width:768px) {
     .footer{
-        margin-top: 30px;
-        padding: 0 10px 20px;
+        align-items: center;
+        margin-top: 50px;
+        padding: 0 20px 20px;
         }
         .footer-left{
         height: 25px;
         }
         .footer-right{
-        gap: 8px;
-        height:10px ;
-        width:10px ;
-        margin-right: 55px;
+        gap: 15px;
+        height:15px ;
+        width:15px ;
+        margin-right: 90px;
         }
 }

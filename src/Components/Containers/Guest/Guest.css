@@ -42,23 +42,23 @@
                 padding: 0 10px;
             }
             .gleft{
-                gap:3px;
-                margin-top: 5px;
+                gap:5px;
+                margin-top: 10px;
             }
             .gright{
-                gap:3px;
-                margin-top: 5px;
+                gap:5px;
+                margin-top: 10px;
             }
             .number{
-                font-size: 10px;
+                font-size: 18px;
             }
             .gleft .label{
-                font-size: 7px;
+                font-size: 15px;
             }
             .gright .number1{
-                font-size: 8px;
+                font-size: 12px;
             }
             .gright .label1{
-                font-size: 6px;
+                font-size: 13px;
             }
         }

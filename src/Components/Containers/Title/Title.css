@@ -66,40 +66,40 @@ margin-right: 40px;
     .title {
         flex-direction: row;
         height: auto;
-        padding: 10px 0;
-        gap: 5px;
+        padding: 20px 0;
+        gap: 8px;
         align-items: flex-start;
     }
 
     .titleleft {
-        margin-left: 1px;
-        gap: 6px;
+        margin-left: 5px;
+        gap: 10px;
     }
 
     .titleleft img {
-        width: 24px;
+        width: 40px;
     }
 
     .titleleft h2 {
-        font-size: 11px;
+        font-size: 20px;
+        font-weight: 600;
     }
 
     .back-button {
-        width: 28px;
-        height: 24px;
-        font-size: 14px;
+        width: 30px;
+        height: 28px;
         padding: 6px;
     }
 
     .titleright {
         margin-top: 5px;
         margin-right: 10px;
-        font-size: 8px;
+        font-size: 12px;
         gap: 6px;
     }
 
     .titleright img {
-        width: 13px;
-        height: 14px;
+        width: 15px;
+        height: 15px;
     }
 }

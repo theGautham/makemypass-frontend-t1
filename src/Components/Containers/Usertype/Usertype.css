@@ -1,6 +1,6 @@
-.usercontainer{
+.usercontainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;      
     gap: 10px;
     padding: 0 20px;
     margin-top: 20px;
@@ -20,20 +20,23 @@ border-radius: 8px;
 cursor: pointer;
 width: 500px;
 }
-@media screen and (max-width:768px) {
-    .usercontainer{ 
-        gap: 5px;
+@media screen and (max-width: 768px) {
+    .usercontainer {
+        gap: 10px;
         padding: 0 10px;
-        margin-top: 10px;  
+        margin-top: 10px;
     }
-    .action-button{
+
+    .action-button {
+        flex: 1 1 calc(50% - 10px); 
         gap: 6px;
         padding: 6px 10px;
-        font-size: 6px;
-        width: 250px;
+        font-size: 12px;
+        width: auto;
     }
-    .action-button img{
-        width: 9px;
-        height: 9px;
+
+    .action-button img {
+        width: 15px;
+        height: 15px;
     }
 }

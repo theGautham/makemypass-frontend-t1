@@ -1,9 +1,10 @@
-.home{
+.home { 
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-
+    height: 100vh;            
+    overflow-y: auto;         
 }
 .guestlist{
     font-size: 17px;
@@ -78,7 +79,7 @@ height: 40px;
         
         }
         .guestlist{
-    font-size: 11px;
+    font-size: 18px;
     margin-top: 12px;
     padding: 0 10px;
         }
@@ -87,26 +88,23 @@ height: 40px;
             padding: 0 10px;
             }
             .recentleft{
-                font-size: 6px;
+                font-size: 15px;
                 margin-top: 10px;
                 
             }
-            .recentright{
-                margin-top:12px ;
-               gap: 4px;
+            .recentright {
+                display: flex;
+                flex-wrap: wrap;              
+                justify-content: space-between;
+                gap: 4px;
+                margin-top: 12px;
             }
-            .normal{
-        padding: 0px 4px;
-        font-size: 5px;
-        width: 55px;
-        height: 20px;
-            }
-            .normal-arrow{
-                padding: 0px 6px;
-                font-size: 4px;
-                width: 55px;
-                height: 20px;
-            }
+            .recentright .normal,
+    .recentright .normal-arrow {
+        flex: 1 1 calc(50% - 4px);     
+        width: auto;  
+        font-size: 14px;                 
+}
             .arrow-end{
                 gap: 2px;
             }
