@@ -21,7 +21,7 @@
     cursor: pointer;
 }
 .navleft h1{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 200;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -44,7 +44,7 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-@media (max-width: 768px) {
+@media screen and (max-width:652px) {
     .navbar {
         padding: 20px; 
         margin-top: 20px;
@@ -56,7 +56,7 @@
     }
 
     .navleft h1 {
-        font-size: 16px;
+        font-size: 12px;
     }
 .navright{
     gap: 10px;
@@ -67,6 +67,6 @@
     }
 
     .navright span {
-        font-size: 12px;
+        font-size: 10px;
     }
 }

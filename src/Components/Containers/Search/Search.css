@@ -28,7 +28,7 @@
     color: white;
     font-size: 18px;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:652px) {
     .container-search{
         width: 100%;
         box-sizing: border-box;

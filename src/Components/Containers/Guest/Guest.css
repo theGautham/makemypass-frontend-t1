@@ -37,7 +37,7 @@
             color: #00ff82;
             font-weight: 300;
         }
-        @media screen and (max-width:768px) {
+        @media screen and (max-width:652px) {
             .guest{
                 padding: 0 10px;
             }

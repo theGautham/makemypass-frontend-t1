@@ -23,7 +23,7 @@
     background-color: #7c9bf2;
     width: 193.8px;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:652px) {
     .container{
         height: 6px;
         margin-top: 12px;

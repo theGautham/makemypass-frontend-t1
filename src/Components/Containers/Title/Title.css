@@ -62,7 +62,7 @@ margin-right: 40px;
  align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 652px) {
     .title {
         flex-direction: row;
         height: auto;
@@ -81,7 +81,7 @@ margin-right: 40px;
     }
 
     .titleleft h2 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
     }
 

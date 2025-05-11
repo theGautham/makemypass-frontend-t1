@@ -20,7 +20,7 @@ font-size: 14px;
 color: white;
 font-weight: 300;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:652px) {
     .glance{
         margin-top: 2ch;
         padding: 0 10px;

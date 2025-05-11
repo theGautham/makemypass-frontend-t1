@@ -12,7 +12,7 @@ height: 30px;
 display: flex;
 gap: 12px;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:652px) {
     .footer{
         align-items: center;
         margin-top: 50px;

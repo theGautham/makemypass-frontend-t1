@@ -19,7 +19,7 @@ gap: 8px;
     height: 16px;
     cursor: pointer;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:652px) {
     .pageinfo{
         padding: 0 20px;
         margin-top: 20px;
