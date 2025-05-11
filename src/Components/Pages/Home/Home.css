@@ -72,17 +72,84 @@ height: 40px;
         width: 16px;
         height: 16px;
     }
-     @media screen and (max-width:768px) {
-        .home{
+     @media screen and (max-width:652px) {
+        .home { 
             width: 100%;
-            max-width: 768px;
-            padding: 0 5px;
-        
+            max-width: 652px;
+            margin: 0 auto;              
+            padding: 0 20px;
+            height: 100vh; 
+            overflow-y: unset; 
+            scrollbar-width: none;       
         }
         .guestlist{
     font-size: 18px;
     margin-top: 12px;
-    padding: 0 10px;
+    .container{
+        display: flex;
+            height: 8px;
+            width: 100%;
+            margin-top: 15px;
+            padding: 0 20px;
+            overflow: hidden;
+    }
+    
+    .bar-purple{
+        background-color: #9b4fd3;
+        width: 942px;
+    }
+    .bar-green{
+        background-color: #2eaf6d;
+        width: 11.39px;
+    }
+    .bar-grey{
+        background-color: #e6e8ec;
+        width: 15.19px;
+    }
+    .bar-blue{
+        background-color: #7c9bf2;
+        width: 189.91px;
+    }
+    @media screen and (max-width:768px) {
+        .container{
+            height: 6px;
+            margin-top: 12px;
+            padding: 0 10px;
+        }
+    }
+    .container{
+        display: flex;
+            height: 8px;
+            width: 100%;
+            margin-top: 15px;
+            padding: 0 20px;
+            overflow: hidden;
+    }
+    
+    .bar-purple{
+        background-color: #9b4fd3;
+        width: 942px;
+    }
+    .bar-green{
+        background-color: #2eaf6d;
+        width: 11.39px;
+    }
+    .bar-grey{
+        background-color: #e6e8ec;
+        width: 15.19px;
+    }
+    .bar-blue{
+        background-color: #7c9bf2;
+        width: 189.91px;
+    }
+    @media screen and (max-width:768px) {
+        .container{
+            height: 6px;
+            margin-top: 12px;
+            padding: 0 10px;
+        }
+    }
+         
         }
         .recentg{
             margin-top:6px ;
