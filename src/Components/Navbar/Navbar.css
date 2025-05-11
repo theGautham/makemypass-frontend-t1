@@ -46,7 +46,7 @@
 }
 @media screen and (max-width:652px) {
     .navbar {
-        padding: 20px; 
+        padding: 20px 5px; 
         margin-top: 20px;
     }
 

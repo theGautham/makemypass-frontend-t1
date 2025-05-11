@@ -66,7 +66,7 @@ margin-right: 40px;
     .title {
         flex-direction: row;
         height: auto;
-        padding: 20px 0;
+        padding: 20px 0px;
         gap: 8px;
         align-items: flex-start;
     }
