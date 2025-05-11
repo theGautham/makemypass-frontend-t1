@@ -1,10 +1,11 @@
 .home { 
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 20px;
     padding: 0 20px;
-    height: 100vh;            
-    overflow-y: auto;         
+    height: 100vh; 
+    overflow-y: unset; 
+    scrollbar-width: none;       
 }
 .guestlist{
     font-size: 17px;
