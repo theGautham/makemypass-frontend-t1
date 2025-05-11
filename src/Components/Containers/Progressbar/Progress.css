@@ -9,19 +9,19 @@
 
 .bar-purple{
     background-color: #9b4fd3;
-    width: 942px;
+    width: 1083.12px;
 }
 .bar-green{
     background-color: #2eaf6d;
-    width: 11.39px;
+    width: 11.6px;
 }
 .bar-grey{
     background-color: #e6e8ec;
-    width: 15.19px;
+    width: 15.48px;
 }
 .bar-blue{
     background-color: #7c9bf2;
-    width: 189.91px;
+    width: 193.8px;
 }
 @media screen and (max-width:768px) {
     .container{
